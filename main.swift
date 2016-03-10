@@ -26,6 +26,7 @@ print(oneThirdInDouble)
 
 
 /*
+//循环
 for index in 1...5{
     print(index)
 }
@@ -36,6 +37,7 @@ for index=0;index<3;++index{
     print("index is \(index)")
 }
 */
+//访问数组
 var someInts=[Int](count:3,repeatedValue:10)
 var someVar=someInts[0]
 print("Value of first elementis \(someVar)")
